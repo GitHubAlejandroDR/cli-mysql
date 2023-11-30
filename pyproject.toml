@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cli-mysql"
+version = "0.1.0"
+description = ""
+authors = ["GitHubAlejandroDR <alejandrodominguezrecio@uma.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pip = "^23.3.1"
+mysql-connector-python = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
