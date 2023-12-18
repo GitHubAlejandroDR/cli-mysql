@@ -1,4 +1,4 @@
-from .queries import *
+from queries.queries import *
 
 import mysql.connector
 
@@ -31,7 +31,7 @@ print(" ")
 print("Which query do you want to execute?")
 option = int(input("Enter your choice: "))
 
-while option != 6:
+while option != 5:
     if option == 1:
         print("Query 1")
         print("Available tables:\n 1) Clinical trials \n")
