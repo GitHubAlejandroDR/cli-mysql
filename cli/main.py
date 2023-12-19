@@ -4,10 +4,10 @@ import mysql.connector
 
 # Establish a connection with your MySQL database
 connection = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="alejandro_1992",
-    database="mydb",
+    host="",
+    user="",
+    password="",
+    database="",
 )
 
 print("'''DATABASE MANAGER'''\n")
